@@ -6,5 +6,11 @@ print("nuevo print de prueba")
 print("rama de desarrollo moneril")
 
 while True:
-    print("\n----resumen de la clase 4 de programacion avanzada----")
-    resumen = int(input("escriba 1 para resumen de la clase: "))
+    print("----resumen de la clase 4 de programacion avanzada----\n"
+          "1. clase 4")
+    resumen = int(input("escriba la opcion que quiere: "))
+    if resumen == 1:
+        print("se aprendio a usar git dento de Pycharm \n"
+              "se guardo de forma local y en la nube con (commit y commit and push)\n"
+              "se creo una rama principal y otra de desarrollo para hacer cambios sin afectar a la principal")
+        break
